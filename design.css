@@ -1,0 +1,99 @@
+.user_form{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 110vh;
+    background-image: url("reg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#col{
+    color: aliceblue;
+}
+
+input[type=radio]{
+    accent-color: rgb(16, 114, 24);
+}
+#about-body{
+    background-image: url("body2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(255, 250, 205, 0.377); */
+}
+#about-h{
+    color: aliceblue;
+    text-shadow: 1px 1px;
+}
+#sec{
+   color: aliceblue;
+}
+#par{
+    text-align: center;
+    /* background-color: grey; */
+    color: aliceblue;
+}
+#next{
+    color: aliceblue;
+}
+
+#section1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("bb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(219, 222, 176); */
+}
+
+#section2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("sec-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: silver; */
+}
+
+#section3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("sec-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: tan; */
+}
+
+#section4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("sec4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rosybrown; */
+}
+
+h1{
+    text-align: center;
+    color: rgb(23, 105, 37);
+}
+
+

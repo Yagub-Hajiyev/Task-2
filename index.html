@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Registration</title>
+    
+</head>
+<body>
+   
+
+    <div class="user_form" id="user_form">
+
+        <form id="form" class="form" >
+            <h1 name="register">Register</h1>
+
+            <label for="username">
+                <b id="col">Username:</b>
+            </label>
+
+            <input type="text" minlength="4" id="username" name="username" required="">
+
+            <br><br>
+
+            <label for="email">
+                <b id="col">Email:</b>
+            </label>
+
+            <input type="email" id="email" required="">
+
+            <br><br>
+
+            <label for="password">
+                <b id="col">Password:</b>
+            </label>
+
+            <input type="password" id="password" name="password" minlength="8" required="">
+
+            <br><br> 
+
+            <select name="uni" required="" id="uni">
+                <option value="">University</option>
+                <option value="asoiu">ASOIU</option>
+                <option value="bsu">BSU</option>
+                <option value="asau">ASAU</option>
+                <option value="gsu">GSU</option>
+                <option value="ada">ADA</option>
+                <option value="aspu">ASPU</option>
+                <option value="lsu">LSU</option>
+            </select>
+
+            <select name="city" required="" id="city">
+                <option value="">None</option>
+                <option value="baku">Baku</option>
+                <option value="ganja">Ganja</option>
+                <option value="lankaran">Lankaran</option>
+                <option value="shaki">Shaki</option>
+            </select>
+
+            <br><br>
+
+            <input type="file" name="file" required="" id="col">
+
+            <br><br>
+
+            <label for="gender">
+                <b id="col">Gender:</b>
+            </label>
+
+            <input type="radio" required="" id="male" name="gender">
+            <span id="col">Male</span>
+
+            <input type="radio" required="" id="female" name="gender">
+            <span id="col">Female</span>
+
+            <br><br>
+
+            <button type="submit" id="submit" name="submit">Add User</button>
+        </form>
+    </div>
+    <script src="./Task-2-Yagub-Hajiyev.js"></script>
+</body>
+</html>
